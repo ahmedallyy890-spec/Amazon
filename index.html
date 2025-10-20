@@ -1,62 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini amazon</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/jpg" href="OIP2.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    <header>
-        <nav style="padding:10px; display:flex; align-items: center; justify-content: space-between; font-family: 'Poppins', sans-serif;">
-            <h2>amazon ^_^</h2>
-            <input type="search" id="search_input" >
-            <button onclick="search()">Search</button>
-        </nav>
-    </header>
-    <h1 class="title">مستلزمات <br>المطبخ 🥩🍗</h1>
-    <hr>
-    <script src="script.js"></script>
-    <img src="OIP-removebg-preview.png" class="img1">
-    <p onclick="alert('تم شراء ميكرويف ب50 جنيه'); total += 50">(50 EGP)📟مايكرويفهات</p>
-    <p onclick="alert('تم شراء ثلاجة ب267 جنيه'); total += 267">(267 EGP)🧊ثلاجات</p>
-    <p onclick="alert('تم شراء اير فراير ب80 جنيه'); total += 80">(80 EGP)🫕اير فراير</p>
-    <p onclick="alert('تم شراء بوتجاز ب300 جنيه'); total += 300">(300 EGP)🔥بوتوجزات</p>
-    <p onclick="alert('تم شراء خلاط ب109 جنيه'); total += 109">(109 EGP)خلطات🥤</p>
-    <hr>
-    <h1 class="title">مستلزمات <br>المدارس📝</h1>
-    <hr>
-    <img src="books-education-school-literature-51342-removebg-preview.png" class="img2">
-    <p onclick="alert('تم شراء 4 كرارايس عربي و انجليزي و رياضيات و فرنساوي ب150 جنيه'); total += 150">(150 EGP)كراسات📒</p>
-    <p onclick="alert('تم شراء قلمين جاف ورصاص ب27 جنيه'); total += 27">(27 EGP)اقلام🖋️</p>
-    <p onclick="alert('تم شراء استيكه ب10 جنيه'); total += 10">(10 EGP)اساتيك⬜🟦</p>
-    <p onclick="alert('تم شراء شنطه ب34 جنيه'); total += 34">(34 EGP)شنط👜</p>
-    <p onclick="alert('تم شراء كتاب سلاح التلميذ العربي والدراسات ب60 جنيه'); total += 60">(60 EGP)كتب خارجية📖</p>
-    <hr>
-    <h1 class="title">قسم الاجهزة الالكترونية💻</h1>
-    <hr>
-    <img src="5_claves_mas_importantes_iPhone_X_03-removebg-preview.png" class="img2">
-    <p onclick="alert('تم شراء تابلت هواوي ب11,000 جنيه'); total += 11000">(11,000 EGP)تابلت هواوي📱</p>
-    <p onclick="alert('تم شراء موبايل ايفون ب107,000 جنيه'); total += 107000">(107,000 EGP)موبايل ايفون 🍎</p>
-    <p onclick="alert('تم شراء موبايل اوبو ب8000 جنيه'); total += 8000">(8,000 EGP)موبايل اوبو 📱</p>
-    <p onclick="alert('تم شراء لابتوب Hp ب34,000 جنيه'); total += 34000;">(34,000 EGP)لابتوب Hp 💻</p>
-    <p onclick="alert('تم شراء لابتوب ماك ب70,000 جنيه'); total += 70000;">(70,000 EGP)لابتوب ماك 🍎</p>
-    <hr>
-    <h1 class="title">قسم الملابس 👕</h1>
-    <hr>
-    <img src="R-removebg-preview.png" class="img3">
-    <p onclick="alert('تم شراء قميص رجالي ب300 جنيه'); total += 300;">(300 EGP)قميص رجالي 👔</p>
-    <p onclick="alert('تم شراء قميص حريمي ب450 جنيه'); total += 450;">(450 EGP)قميص حريمي 👚</p>
-    <p onclick="alert('تم شراء كوتشي نايك ب3000 جنيه'); total += 3000;">(3000 EGP)كوتشي نايك 🥾</p>
-    <p onclick="alert('تم شراء جاكيت رجالي ب120 جنيه'); total += 120;">(120 EGP)جاكيت رجالي 🧥</p>
-    <p onclick="alert('تم شراء جاكيت حريمي ب180 جنيه'); total += 180;">(180 EGP)جاكيت حريمي 🥼</p>
-    <p onclick="alert('تم شراء ساعة رجالي ب5,000 جنيه'); total += 5000;">(5,000 EGP)ساعة رجالي ⌚</p>
-    <p onclick="alert('تم شراء ساعة حريمي ب8,000 جنيه'); total += 8000;">(8,000 EGP)ساعة حريمي ⌚</p>
-    <hr>
-    <button onclick="if (total > 0) {alert(`الاجمالي: ${total} جنيه`)} else {alert('لم تشتري اي شيء')}" class="cart_btn">الاجمالي</button>
-</body>
-</html>
